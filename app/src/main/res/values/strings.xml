@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">SecApp</string>
+
+    <!-- Introdução -->
+    <string name="introduction">Bem-vindo ao SecApp! Teste seus conhecimentos sobre cibersegurança e aprenda a proteger suas informações pessoais com nossas perguntas. Boa sorte!</string>
+
+    <!-- Pontuação -->
+    <string name="pontuacao">Pontuação</string>
+
+    <!-- Nome user -->
+    <string name="nome">nome user</string>
+
+    <!-- Texto final pontuação -->
+    <string name="texto_pontuacao">Parabéns você finalizou o Quiz, essa foi sua pontuação:</string>
+    <string name="btn_voltar">Voltar</string>
+
+
+    <!-- Sobre -->
+    <string name="sobre_Nome">Rian Júnior</string>
+    <string name="sobre_nomeEscola">Etec Dr. Hemilío Hernandez Aguilar.</string>
+    <string name="sobre_classe">2º Informática.</string>
+
+    <!-- btn -->
+    <string name="btn_jogar">Jogar</string>
+    <string name="btn_sobre">Sobre</string>
+
+    <!-- Perguntas quizz -->
+    <string name="P1">Qual é a principal função de um firewall?</string>
+    <string name="P1_option_A">A) Proteger senhas</string>
+    <string name="P1_option_B">B) Monitorar tráfego de rede</string>
+    <string name="P1_option_C">C) Bloquear vírus</string>
+    <string name="P1_option_D">D) Criptografar dados</string>
+    <string name="P1_correct">B</string> <!-- correta -->
+
+    <string name="P2">O que é phishing?</string>
+    <string name="P2_option_A">A) Um software de segurança</string>
+    <string name="P2_option_B">B) Um ataque para roubar informações pessoais</string>
+    <string name="P2_option_C">C) Uma técnica de firewall</string>
+    <string name="P2_option_D">D) Um tipo de malware</string>
+    <string name="P2_correct">B</string> <!-- correta -->
+
+    <string name="P3">Qual é a melhor prática para criar senhas seguras?</string>
+    <string name="P3_option_A">A) Criar senhas curtas e simples</string>
+    <string name="P3_option_B">B) Combinar letras, números e símbolos</string>
+    <string name="P3_option_C">C) Usar a mesma senha para todas as contas</string>
+    <string name="P3_option_D">D) Usar sua data de nascimento</string>
+    <string name="P3_correct">B</string> <!-- correta -->
+
+    <string name="P4">O que significa autenticação de dois fatores (2FA)?</string>
+    <string name="P4_option_A">A) Alterar sua senha duas vezes ao mês</string>
+    <string name="P4_option_B">B) Confirmar identidade através de dois métodos diferentes</string>
+    <string name="P4_option_C">C) Usar apenas um dispositivo para login</string>
+    <string name="P4_option_D">D) Usar duas senhas diferentes</string>
+    <string name="P4_correct">B</string> <!-- correta -->
+
+    <string name="P5">Qual dos seguintes é um sinal de que seu computador pode estar infectado por malware?</string>
+    <string name="P5_option_A">A) Anúncios pop-up aparecem inesperadamente</string>
+    <string name="P5_option_B">B) O computador está mais rápido</string>
+    <string name="P5_option_C">C) Não há atualizações disponíveis</string>
+    <string name="P5_option_D">D) Você consegue acessar todos os seus arquivos</string>
+    <string name="P5_correct">A</string> <!-- correta -->
+
+    <string name="P6">Qual é a finalidade de uma VPN?</string>
+    <string name="P6_option_A">A) Aumentar o armazenamento de dados</string>
+    <string name="P6_option_B">B) Proteger sua conexão de rede</string>
+    <string name="P6_option_C">C) Criar senhas temporárias</string>
+    <string name="P6_option_D">D) Melhorar a velocidade da internet</string>
+    <string name="P6_correct">B</string> <!-- correta -->
+
+    <string name="P7">O que deve ser feito ao receber um e-mail suspeito?</string>
+    <string name="P7_option_A">A) Marcar como spam</string>
+    <string name="P7_option_B">B) Responder solicitando mais informações</string>
+    <string name="P7_option_C">C) Ignorar e deletar</string>
+    <string name="P7_option_D">D) Abrir todos os anexos</string>
+    <string name="P7_correct">C</string> <!-- correta -->
+
+    <string name="P8">Qual é um exemplo de malware?</string>
+    <string name="P8_option_A">A) Worm</string>
+    <string name="P8_option_B">B) Antivírus</string>
+    <string name="P8_option_C">C) Firewall</string>
+    <string name="P8_option_D">D) VPN</string>
+    <string name="P8_correct">A</string> <!-- correta -->
+
+    <string name="P9">O que é engenharia social?</string>
+    <string name="P9_option_A">A) Um ataque baseado em manipulação psicológica</string>
+    <string name="P9_option_B">B) Um tipo de software de segurança</string>
+    <string name="P9_option_C">C) Um método de proteção de dados</string>
+    <string name="P9_option_D">D) Um protocolo de comunicação</string>
+    <string name="P9_correct">A</string> <!-- correta -->
+
+    <string name="P10">Qual é a melhor forma de manter seu software atualizado?</string>
+    <string name="P10_option_A">A) Ignorar atualizações</string>
+    <string name="P10_option_B">B) Atualizar apenas quando houver problemas</string>
+    <string name="P10_option_C">C) Configurar atualizações automáticas</string>
+    <string name="P10_option_D">D) Verificar atualizações manualmente uma vez por ano</string>
+    <string name="P10_correct">C</string> <!-- correta -->
+</resources>
