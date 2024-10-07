@@ -3,6 +3,12 @@
 
     <!-- Introdução -->
     <string name="introduction">Bem-vindo ao SecApp! Teste seus conhecimentos sobre cibersegurança e aprenda a proteger suas informações pessoais com nossas perguntas. Boa sorte!</string>
+    <string name="introductionname">Olá seja bem vindo! para começar digite seu nome!</string>
+    <string name="introducaoactivity">
+    Bem-vindo ao Cyber Quiz! Prepare-se para testar suas habilidades em cibersegurança com um quizz interativo de 10 perguntas. Cada acerto conta pontos e ajuda você a se tornar um especialista em segurança online. Não importa seu nível de experiência, o Cyber Quiz oferece aprendizado divertido e envolvente. Descubra informações valiosas que podem proteger você e seus dados! Vamos começar! Boa sorte! 🍀
+</string>
+
+
 
     <!-- Pontuação -->
     <string name="pontuacao">Pontuação</string>
@@ -19,10 +25,13 @@
     <string name="sobre_Nome">Rian Júnior</string>
     <string name="sobre_nomeEscola">Etec Dr. Hemilío Hernandez Aguilar.</string>
     <string name="sobre_classe">2º Informática.</string>
+    <string name="desenvolvimento">Desenvolvimento</string>
 
     <!-- btn -->
     <string name="btn_jogar">Jogar</string>
     <string name="btn_sobre">Sobre</string>
+    <string name="btn_iniciar">Iniciar</string>
+    <string name="next">Próxima</string>
 
     <!-- Perguntas quizz -->
     <string name="P1">Qual é a principal função de um firewall?</string>

@@ -1,7 +1,8 @@
 package com.rianjuniorsec.appsec_quizz;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
-
+import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -10,6 +11,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class pergunta1 extends AppCompatActivity {
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +22,15 @@ public class pergunta1 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        TextView exibirNome = findViewById(R.id.editTextName);
+
+        // Recupera o nome passado pela primeira activity
+        String name = getIntent().getStringExtra("USER_NAME");
+
+        // Exibe o nome
+        exibirNome.setText("Olá, " + (name) + " !");
+
 
 
     }
