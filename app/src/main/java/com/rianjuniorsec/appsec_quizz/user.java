@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast; // Importando o Toast para mensagens
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -12,7 +13,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class user extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +33,18 @@ public class user extends AppCompatActivity {
         btnIniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = nomeUser.getText().toString();
-                Intent intent = new Intent(user.this, pergunta1.class);
-                intent.putExtra("USER_NAME", name);
-                startActivity(intent);
+                String name = nomeUser.getText().toString().trim(); // Usando trim() para remover espaços em branco
+
+                // Verifica se o nome do usuário está vazio
+                if (name.isEmpty()) {
+                    // Exibe uma mensagem de erro
+                    Toast.makeText(user.this, "Por favor, insira seu nome.", Toast.LENGTH_SHORT).show();
+                } else {
+                    // Prossegue com a intenção para a próxima atividade
+                    Intent intent = new Intent(user.this, pergunta1.class);
+                    intent.putExtra("USER_NAME", name);
+                    startActivity(intent);
+                }
             }
         });
     }

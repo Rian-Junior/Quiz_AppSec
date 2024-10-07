@@ -29,7 +29,7 @@ public class pergunta1 extends AppCompatActivity {
         String name = getIntent().getStringExtra("USER_NAME");
 
         // Exibe o nome
-        exibirNome.setText("Olá, " + (name) + " !");
+        exibirNome.setText("Jogador: " + name);
 
 
 

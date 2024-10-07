@@ -46,42 +46,6 @@
         tools:text="@string/app_name" />
 
     <TextView
-        android:id="@+id/classeAluno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/sobre_classe"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.403"
-        app:layout_constraintStart_toEndOf="@+id/nomeAluno"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592" />
-
-    <TextView
-        android:id="@+id/nomeAluno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:text="@string/sobre_Nome"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592" />
-
-    <TextView
-        android:id="@+id/TextViewEscola"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/sobre_nomeEscola"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657" />
-
-    <TextView
         android:id="@+id/textViewDesen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
