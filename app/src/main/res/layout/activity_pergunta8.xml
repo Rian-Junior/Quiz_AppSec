@@ -7,43 +7,75 @@
     android:layout_height="match_parent"
     tools:context=".pergunta8">
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="145dp" />
-
     <RadioGroup
-        android:layout_width="178dp"
-        android:layout_height="204dp"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="300dp">
+        android:id="@+id/radioGroup"
+        android:layout_width="270dp"
+        android:layout_height="266dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.251">
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:layout_height="58dp"
+            android:text="@string/P8_option_A" />
 
         <RadioButton
             android:id="@+id/radioButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="@string/P8_option_B" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:layout_height="60dp"
+            android:text="@string/P8_option_C" />
 
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:layout_height="66dp"
+            android:text="@string/P8_option_D" />
 
     </RadioGroup>
+
+    <TextView
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="112dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="289dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="184dp"
+        android:text="@string/P8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

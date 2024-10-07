@@ -11,7 +11,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/pontuacao"
         tools:layout_editor_absoluteX="151dp"
         tools:layout_editor_absoluteY="216dp"
         tools:text="@string/pontuacao" />
@@ -29,7 +29,7 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/texto_pontuacao"
         tools:layout_editor_absoluteX="27dp"
         tools:layout_editor_absoluteY="338dp"
         tools:text="@string/texto_pontuacao" />
