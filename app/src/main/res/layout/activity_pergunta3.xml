@@ -9,10 +9,10 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="97dp"
-        android:layout_height="59dp"
+        android:layout_width="112dp"
+        android:layout_height="62dp"
         android:layout_marginTop="108dp"
-        android:text="Button"
+        android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,25 +34,25 @@
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="58dp"
-            android:text="@string/P2_option_A" />
+            android:text="@string/P3_option_A" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="@string/P2_option_B" />
+            android:text="@string/P3_option_B" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="@string/P2_option_C" />
+            android:text="@string/P3_option_C" />
 
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="66dp"
-            android:text="@string/P2_option_D" />
+            android:text="@string/P3_option_D" />
 
     </RadioGroup>
 
@@ -61,14 +61,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="204dp"
-        android:text="@string/P2"
+        android:text="@string/P3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/editTextName5"
+        android:id="@+id/editTextName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"

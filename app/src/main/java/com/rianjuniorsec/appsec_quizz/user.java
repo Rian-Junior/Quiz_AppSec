@@ -20,6 +20,7 @@ public class user extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_user);
 
+        // Declarando obj
         EditText nomeUser = findViewById(R.id.editTextName);
         Button btnIniciar = findViewById(R.id.btn_iniciar);
 
@@ -29,11 +30,12 @@ public class user extends AppCompatActivity {
             return insets;
         });
 
+
         // Configura o listener para o botão iniciar
         btnIniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = nomeUser.getText().toString().trim(); // Usando trim() para remover espaços em branco
+                String name = nomeUser.getText().toString().trim();
 
                 // Verifica se o nome do usuário está vazio
                 if (name.isEmpty()) {
@@ -47,5 +49,8 @@ public class user extends AppCompatActivity {
                 }
             }
         });
+
+
+
     }
 }

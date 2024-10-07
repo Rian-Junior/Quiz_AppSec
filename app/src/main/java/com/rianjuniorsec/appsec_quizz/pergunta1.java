@@ -1,8 +1,14 @@
 package com.rianjuniorsec.appsec_quizz;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -10,6 +16,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class pergunta1 extends AppCompatActivity {
+
+    // Declarando obj
+    EditText nomeUser = findViewById(R.id.editTextName);
+    Button btnEnviar = findViewById(R.id.btn_enviar);
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -30,6 +40,15 @@ public class pergunta1 extends AppCompatActivity {
 
         // Exibe o nome
         exibirNome.setText("Jogador: " + name);
+
+        // Configura o listener para o botão Enviar
+        btnEnviar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String name = nomeUser.getText().toString().trim();
+
+            }
+        });
 
 
 
